@@ -6,6 +6,4 @@ venv/
 .env
 .coverage
 .coverage.*
-__pycache__/
-.pytest_cache/
 .ruff_cache/
