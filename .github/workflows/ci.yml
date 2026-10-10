@@ -28,4 +28,4 @@ jobs:
         run: python -m ruff check .   
 
       - name: Run tests with coverage
-        run: python -m pytest --cov=app --cov-report=term-missing -v
+        run: python -m pytest --cov=app --cov-report=term-missing --cov-fail-under=80 -v
