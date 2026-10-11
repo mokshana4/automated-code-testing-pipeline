@@ -2,3 +2,4 @@ pytest
 ruff        #Ruff is a fast Python linter that detects common coding issues.
 pytest-cov  #Test coverage tells you which parts of your Python code are executed when your tests run. 
             #It helps you identify code that might need additional tests.
+build
